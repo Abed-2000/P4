@@ -1,0 +1,120 @@
+<!-- DEVELOPER: Abed Miah, IS117-004, Spring 2022 -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Abed's Portfolio</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="css/main.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="row">
+                <nav class="navbar navbar-expand-md
+                        justify-content-start
+                        bg-dark navbar-dark
+                        col-12">
+
+                    <!-- Brand -->
+                    <a class="navbar-brand" href="about.html">Abed Miah</a>
+                    <!-- Responsive Button for the smaller menu -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                        <ul class="navbar-nav">
+                            <!-- Links -->
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="skills.html">Skills</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle active" href="projects.html" id="navbardrop" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Projects
+                                </a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item text-muted" href="projects.html">See all</a>
+                                    <a class="dropdown-item" target="_blank" href="https://devpost.com/software/hydrationbot">Hydration Bot</a>
+                                    <a class="dropdown-item" target="_blank" href="https://devpost.com/software/say-cheese-2mi0kc">Say Cheese</a>
+                                    <a class="dropdown-item" href="#">Leaguer Board</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <div class="container">
+                    <div class="row">
+                        <h3>Here are the projects that I have worked on:</h3>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="card mx-auto" style="width: 18rem;">
+                                <img src="devpost.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Hydration Bot</h5>
+                                    <p class="card-text">Reminding gamers to stay hydrated during long gaming sessions.</p>
+                                    <a href="https://devpost.com/software/hydrationbot" target="_blank" class="btn btn-primary">View Devpost</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card mx-auto" style="width: 18rem;">
+                                <img src="devpost.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Say Cheese</h5>
+                                    <p class="card-text">Always be able to get that perfect photo on the first try.</p>
+                                    <a href="https://devpost.com/software/say-cheese-2mi0kc" target="_blank" class="btn btn-primary">View Devpost</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card mx-auto" style="width: 18rem;">
+                                <img src="GitHub.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Leaguer Board</h5>
+                                    <p class="card-text">Keep track of your friend's progress on the League of Legend's competitive ladder.</p>
+                                    <a href="#" class="btn btn-primary">View Github Repo</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="text-center">
+                            <a class="btn btn-primary" href="contact.html" role="button">Contact Me</a>
+                        </div>
+                    </div>
+
+                </div>
+                <footer class="footer page-footer font-small ">
+                    <div class="container">
+                        <div class="row">
+                            <span class="text-muted">&copy; Abed Miah, 2022</span>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+
+
+            <!-- Javascript Bundle with Popper -->
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+                document.getElementById("contact").onsubmit = function() {
+                    contactRequest()
+                };
+
+                function contactRequest() {
+                    window.alert("Your contact request has been recieved, I will reach out to you soon!")
+                }
+            </script>
+
+</body>

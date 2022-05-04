@@ -1,0 +1,61 @@
+/* DEVELOPER: Abed Miah, IS117-004, Spring 2022 */
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #212529;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.5rem;
+}
+
+h2 {
+    text-align: center;
+    padding: 1.5em;
+}
+
+h3 {
+    text-align: center;
+    padding: 1.5em;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.alert {
+    display: inline-block;
+}
+
+.btn-close {
+    margin-left: auto;
+}
+
+.col{
+    padding: 1em;
+}
+
+.form-group{
+    padding-top: .5em;
+}
+
+.submit-btn{
+    margin-top: 2em;
+    float: right;
+}
+
+body{
+    background-image: url("/sky.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
